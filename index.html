@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="assets/clock.svg">
+</head>
+<body>
+    <nav class="navbar">
+          <a class="navbar-brand" href="#">World Clock</a>
+      </nav>
+      <main>
+        <div class="container">
+            <h1>World Clock</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <h4>Canberra</h4>
+                        <p class="selected-message"></p> 
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title" id="canberra"></h1>
+                        <button class="btn-2">Set as Home</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <h4>Nepal</h4>
+                        <p class="selected-message"></p> 
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title" id="nepal"></h1>
+                        <button class="btn-2">Set as Home</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <h4>USA</h4>
+                        <p class="selected-message"></p> 
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title" id="USA"></h1>
+                        <button class="btn-2">Set as Home</button>
+                    </div>
+                </div>
+            </div>
+            <div class="alarm-set">
+                <label for="appt">Select Alarm Time</label>
+                <input type="time" id="alarm" name="alarm">
+            </div>
+        </div>
+
+       
+      </main>
+    <script src="script.js"></script>
+</body>
+</html>
